@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Presentación</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f2f2f2; 
+        }
+
+        .tarjeta {
+            background-color: #ecf0f1; 
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px; 
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+
+        .titulo {
+            background-color: #3498db; 
+            padding: 30px;
+            text-align: center;
+            color: #fff;
+            height: 150px; 
+        }
+
+        .foto-contenedor {
+            position: absolute;
+            top: 130px;
+            right: 150px; 
+        }
+
+        .foto {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            clip-path: circle(50% at 50% 50%); 
+            margin: 20px 0; 
+        }
+
+        .datos {
+            text-align: center; 
+            padding: 20px;
+        }
+
+        .datos p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="tarjeta">
+        <div class="titulo">
+            <h1>Mi Presentación</h1>
+        </div>
+        <div class="foto-contenedor">
+            <img src="WhatsApp Image 2024-01-09 at 11.33.28.jpeg" alt="Mi Foto" class="foto">
+        </div>
+        <div class="datos">
+            <p>Nombre: Brandon Armando Lara Rosas</p>
+            <p>Edad: 19</p>
+            <p>Sexo: Hombre</p>
+            <p>Colonia: San Jose</p>
+            <p>Hola, soy estudiante de la Universidad Tecnológica de la Huasteca Hidalguense,
+                de la carrera de Tecnologías de la Información, área Desarrollo de Software
+                Multiplataforma.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
